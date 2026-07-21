@@ -1,42 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Profile</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archana Pottem · Portfolio</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo"><span>A</span>rchana</div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#research" class="nav-link">Research</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HOME / HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="badge">🔬 Assistant Professor · Researcher</span>
         <h1>Pottem Archana</h1>
-        <p>Assistant Professor | Researcher | Developer</p>
-    </header>
+        <p class="subhead">M.Tech (CST) · M.E (PE) · Machine Learning · Deep Learning · Quantum Computing</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+          <a href="#publications" class="btn btn-outline"><i class="fas fa-book-open"></i> Publications</a>
+        </div>
+        <div class="hero-stats">
+          <span><i class="fas fa-award"></i> 10+ Years Teaching</span>
+          <span><i class="fas fa-file-alt"></i> 6+ Publications</span>
+          <span><i class="fas fa-user-graduate"></i> M.Tech Topper</span>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-circle">
+          <span>A</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>To work in a challenging environment demanding all my skills and efforts to explore and adapt myself in different fields and realize my potential where I get the opportunity for continuous learning.</p>
-    </section>
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am an Assistant Professor with a strong background in Computer Science, Power Electronics, and interdisciplinary research. 
+            My current focus lies in Machine Learning, Deep Learning, Quantum Computing, and Outcome-Based Education. 
+            I have been recognized with the <strong>Best Outgoing Student Award</strong> (M.Tech CST) and the <strong>Best Teacher Award</strong> 
+            for outstanding academic performance.
+          </p>
+          <p>
+            With a passion for continuous learning and innovation, I have authored multiple Scopus/SCI-indexed publications and 
+            actively serve as a reviewer for international journals and conferences.
+          </p>
+          <div class="about-highlights">
+            <span><i class="fas fa-check-circle"></i> M.Tech (CST) – CGPA 9.53</span>
+            <span><i class="fas fa-check-circle"></i> M.E (PE) – CGPA 8.83</span>
+            <span><i class="fas fa-check-circle"></i> Certified ACM Reviewer</span>
+            <span><i class="fas fa-check-circle"></i> IBM DB2 Professional</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <h3>Quick Info</h3>
+          <ul>
+            <li><i class="fas fa-calendar-alt"></i> 04.08.1986</li>
+            <li><i class="fas fa-map-pin"></i> Bhimavaram, A.P.</li>
+            <li><i class="fas fa-envelope"></i> archanaterlapu@gmail.com</li>
+            <li><i class="fas fa-phone"></i> 9490649980</li>
+            <li><i class="fas fa-language"></i> English, Hindi, Telugu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="qualifications">
-        <h2>Academic Qualifications</h2>
-        <ul>
-            <li><strong>M.Tech in Computer Science and Technology</strong> - SRKR Engineering College (2023) | CGPA: 9.53</li>
-            <li><strong>M.E in Power Electronics</strong> - Andhra University (2013) | CGPA: 8.83</li>
-            <li><strong>B.Tech in Electrical & Electronics Engineering</strong> - Bapatla Engineering College (2007) | 77.6%</li>
-            <li><strong>Intermediate</strong> - Narayana Junior College (2003) | 91.2%</li>
-            <li><strong>SSC</strong> - Board of Secondary Education, AP (2001) | 85%</li>
-        </ul>
-    </section>
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="timeline-content">
+            <h3>Assistant Professor (IT)</h3>
+            <span class="date">2023 – Till Date</span>
+            <p>Vishnu Institute of Technology, Bhimavaram</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="timeline-content">
+            <h3>Assistant Professor (EEE)</h3>
+            <span class="date">2014 – 2018</span>
+            <p>Raghu Institute of Technology, Visakhapatnam</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="timeline-content">
+            <h3>Assistant Professor (EEE)</h3>
+            <span class="date">2011 – 2013</span>
+            <p>Sankethika Vidhya Parishad College of Engineering, Visakhapatnam</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-code"></i></div>
+          <div class="timeline-content">
+            <h3>Software Developer (Mainframe)</h3>
+            <span class="date">2007 – 2010</span>
+            <p>Mahindra Satyam (Tech Mahindra)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p><strong>Email:</strong> <a href="mailto:archanaterlapu@gmail.com">archanaterlapu@gmail.com</a></p>
-        <p><strong>Phone:</strong> 9490649980</p>
-        <p><strong>Address:</strong> HIG 25, APHB Colony, Bhimavaram, West Godavari Dist, Andhra Pradesh, PIN 534201</p>
-    </section>
+  <!-- ===== RESEARCH INTERESTS & REVIEWER ===== -->
+  <section id="research" class="section research">
+    <div class="container">
+      <h2 class="section-title">Research &amp; Service</h2>
+      <div class="research-grid">
+        <div class="research-card">
+          <i class="fas fa-flask"></i>
+          <h3>Areas of Interest</h3>
+          <ul>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Quantum Computing</li>
+            <li>Outcome Based Education</li>
+            <li>Innovative Teaching Methods</li>
+          </ul>
+        </div>
+        <div class="research-card">
+          <i class="fas fa-user-edit"></i>
+          <h3>Reviewer for</h3>
+          <ul>
+            <li>IEEE ICISSGT-2024</li>
+            <li>Journal of Pattern Recognition (Scopus/SCI)</li>
+            <li>Engineering Applications of AI</li>
+          </ul>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem;"><i class="fas fa-certificate"></i> Certified ACM Reviewer</p>
+        </div>
+        <div class="research-card">
+          <i class="fas fa-certificate"></i>
+          <h3>Certifications</h3>
+          <ul>
+            <li>NPTEL: IoT, ML, Entrepreneurship</li>
+            <li>Quantum Computing (C-DAC &amp; IIT Roorkee)</li>
+            <li>Design Thinking (NITTTR)</li>
+            <li>AI in NEP 2020 (Dhanekula)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2025 Pottem Archana | <a href="experience_research.html">Experience & Research</a></p>
-    </footer>
+  <!-- ===== PUBLICATIONS ===== -->
+  <section id="publications" class="section publications">
+    <div class="container">
+      <h2 class="section-title">Selected Publications</h2>
+      <div class="pub-list">
+        <div class="pub-item">
+          <span class="pub-number">1</span>
+          <p>M. V. Subbarao, T. S. Kumar, T. N. Sharmila, S. L. Praveena, D. N. S. B. Kavitha and <strong>P. Archana</strong>, “Comparative Analysis of Feature Ranking Algorithms for Erythemato-Squamous Disease Classification,” <em>2024 SASI-ITE</em>, pp. 327-332.</p>
+        </div>
+        <div class="pub-item">
+          <span class="pub-number">2</span>
+          <p><strong>Pottem Archana</strong>, Terlapu Sudheer Kumar, M. Silakshmi, M. Venkata Subbarao, Viswanadham Ravuri, “Prediction of Attention Deficient Hyperactivity disorder from multi-dimensionality dataset using Machine Learning Techniques,” <em>6th Int. Conf. on Smart Computing and Informatics</em>.</p>
+        </div>
+        <div class="pub-item">
+          <span class="pub-number">3</span>
+          <p><strong>P. Archana</strong>, M. Sri Lakshmi, R. S. R. Sumukh, P. Hemanth Kumar, D. Roshini, “Classifying the Severity of Diabetic Retinopathy using Deep Learning,” <em>5th EAI Int. Conf. on cognitive computing and cyber physical systems 2024</em>.</p>
+        </div>
+        <div class="pub-item">
+          <span class="pub-number">4</span>
+          <p><strong>Archana, P.</strong>, Sirisha, G.N.V.G. &amp; Chaitanya, R.K. “Prediction of autism spectrum disorder from high-dimensional data using machine learning techniques.”</p>
+        </div>
+        <div class="pub-item">
+          <span class="pub-number">5</span>
+          <p><strong>Archana Pottem</strong>, Sudheer Kumar Terlapu, M. Venkata Subbarao, Nagavalli Vegesna “Advanced Signal Detection and Channel Estimation in OFDM Systems via LSTM Network,” <em>FA: Smart Computing Paradigms</em>.</p>
+        </div>
+        <div class="pub-item">
+          <span class="pub-number">6</span>
+          <p><strong>Pottem Archana</strong> and N Prema Kumar, “Performance Analysis of Fuzzy Logic Controller Configurations,” <em>National Conf. on Advances in Computational Intelligence</em>, Sri Padmavati Mahila Visvavidyalayam.</p>
+        </div>
+      </div>
+      <div style="margin-top: 2rem; text-align: center;">
+        <a href="#" class="btn btn-outline"><i class="fas fa-google-scholar"></i> Google Scholar</a>
+        <a href="#" class="btn btn-outline" style="margin-left: 0.5rem;"><i class="fas fa-book"></i> Scopus</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div><strong>Email</strong><br />archanaterlapu@gmail.com</div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div><strong>Phone</strong><br />9490649980</div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div><strong>Address</strong><br />HIG 25, APHB Colony, Bhimavaram, West Godavari Dist, A.P. 534201</div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-link"></i>
+            <div><strong>Social</strong><br />
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google-scholar"></i></a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <textarea rows="4" placeholder="Message"></textarea>
+          <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Pottem Archana · Built with <i class="fas fa-heart" style="color: #e74c3c;"></i> for GitHub Pages</p>
+      <p class="footer-links">
+        <a href="#home">Home</a> · <a href="#about">About</a> · <a href="#experience">Experience</a> · <a href="#publications">Publications</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
